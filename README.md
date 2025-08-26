@@ -41,3 +41,5 @@ Start the development server:
 npm run dev
 <hr>
 Open the provided local URL in your web browser.
+<br>
+=> [Live Demo](https://ecommerce-site-vite.vercel.app/)
