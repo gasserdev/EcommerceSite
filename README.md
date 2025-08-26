@@ -33,10 +33,11 @@ This project is meant for learning how to create interactive web pages, fetch da
 
 1. Open the project in any code editor (e.g., VS Code).
 2. Install dependencies:
----
+<br>
 npm install
----
+<hr>
 Start the development server:
+<br>
 npm run dev
----
+<hr>
 Open the provided local URL in your web browser.
