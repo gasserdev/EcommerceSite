@@ -1,0 +1,53 @@
+#userImg{
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 360px;
+}
+.navI{
+  background-color:rgba(239, 237, 237, 0.812);
+  padding: 10px;
+  border-radius: 5px;
+}
+.navI:hover{
+  cursor: pointer;
+}
+#mainImg {
+  background-image: url('../assets/images/mainImg.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 75vh !important;
+  width: 100% !important;
+  margin-top: 30px !important;
+  border-radius:20px !important ;
+  z-index: 1 !important;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+#mainImg h1{
+  z-index: 1;
+}
+.card{
+  width: 15rem;
+  border-radius: 20px;
+}
+.card img{
+  --size: 230px;
+  height: var(--size);
+  width: var(--size);
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .card{
+    width: 100%;
+    align-items: center;
+  }
+  #cards{
+    display: flex;
+    flex-direction : column;
+    margin-top:20px;
+    gap: 20px;
+  }
+}
