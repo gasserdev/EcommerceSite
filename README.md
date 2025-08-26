@@ -42,4 +42,4 @@ npm run dev
 <hr>
 Open the provided local URL in your web browser.
 <br>
-=> [Live Demo](https://ecommerce-site-vite.vercel.app/)
+=> (Live Demo)[https://ecommerce-site-vite.vercel.app/]
